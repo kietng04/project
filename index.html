@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Timer Online</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main-header">
+        <center style="font-size:25px">Time to focus - time to increase your productivity</center>
+    </div>
+    <div id="description">
+        <p style="font-size:25px;text-align:center;">Time to use Pomodoro :D</p>
+    </div>
+    <img src="pomodoroTimer.png" alt="A tomato" style="width:105px;height:105px;" class="center">
+    <div id="countdown-container"></div>
+    <div id="cancel-container" hidden>
+        <button id = "cancel-button">Cancel</button>
+    </div>
+    <div id="video-container"></div>
+    <div id="selection-container">
+        <p id="instruction" style="font-size:25px;text-align:center;">Please select focus minutes:</p>
+        <div id="time-buttons-container">
+            <button class="minute-button set-time"  id="0.05">25</button>
+            <button class="minute-button set-time"  id="50">50</button>
+            <button class="minute-button set-time"  id="75">75</button>
+            <button class="minute-button set-time"  id="100">100</button>
+        </div>
+        <span class="take-break set-time" id="5" hidden>Take a five minutes break!</span>
+    </div>
+</body>
+</html>
