@@ -1,0 +1,3 @@
+- This is my first project. I use JavaScript + HTML CSS. 
+- When you choose 25 minutes. The time actually is 3 seconds (to test my app)
+- When you finish, the screen will play a random song which i chosen.
